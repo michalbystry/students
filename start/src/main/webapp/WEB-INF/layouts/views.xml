@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="index" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	</definition>
+
+	<definition name="studentList" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/student/personList.jsp" />
+	</definition>
+
+	<definition name="studentEdit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/student/editStudent.jsp" />
+	</definition>
+
+	<definition name="searchStudent" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/student/searchStudent.jsp" />
+	</definition>
+
+	<definition name="printStudent" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/student/printStudent.jsp" />
+	</definition>
+
+
+	<definition name="departmentList" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/department/departmentList.jsp" />
+	</definition>
+
+	<definition name="editDepartment" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/department/editDepartment.jsp" />
+	</definition>
+
+	<definition name="printDepartment" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/department/printDepartment.jsp" />
+	</definition>
+
+	<definition name="searchDepartment" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/department/searchDepartment.jsp" />
+	</definition>
+
+</tiles-definitions>
